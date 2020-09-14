@@ -8,3 +8,5 @@
 * Mysql
 * HTML
 * CSS
+### Education
+* VSU named after P.M. Masherov - Computer Security (Radiophysical Methods and Software).
