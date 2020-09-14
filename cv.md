@@ -3,3 +3,8 @@
 * Telegram @vlad24_05
 * Email: [vladislavgribkovq@yandex.by](mailto:vladislavgribkovq@yandex.by)
 * GitHub: [github.com/vladislavgribkov](https://github.com/vladislavgribkov)
+### Skills
+* Java
+* Mysql
+* HTML
+* CSS
