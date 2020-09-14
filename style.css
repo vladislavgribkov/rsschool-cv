@@ -6,9 +6,12 @@ a{
     text-decoration: none;
     color: #fff;
 }
+a:hover{
+    color: aqua;
+}
 body{
 	font-family:"Arial", sans-serif;
-	font-size:15px;
+	font-size:24px;
     color:#000;
 	margin: 0;
 	padding:0;
@@ -25,7 +28,6 @@ header{
     align-items: center;
     justify-content: space-between;
     background-color: darkgray;
-    font-size: 24px;
 }
 .photo{
     margin: 0 1% 0 0;
@@ -34,4 +36,16 @@ header{
 header img{
     border: #000 3px solid;
     border-radius: 50%;
+}
+main{
+    padding: 3%;
+}
+.skills{
+    margin: 0 0 2% 0;
+}
+.skill__list{
+    margin: 0 0 0 5%;
+}
+.education{
+    margin: 0 0 2% 0;
 }
