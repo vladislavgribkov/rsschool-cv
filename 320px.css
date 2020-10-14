@@ -1,0 +1,29 @@
+.container{
+    max-width: 320px;
+}
+.header__items_title-name h1 {
+    font-size: 2rem;
+}
+.header__items_title {
+    width: 100%;
+}
+.header__items_title-location {
+    margin: 0 25% 30px;
+}
+.site2 {
+    left: -10px;
+}
+.site1 {
+    left: 65px;
+}
+.site3 {
+    left: 124px;
+}
+.main__items_title-skills {
+    height: 300px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.footer__items {
+    flex-wrap: wrap;
+}
