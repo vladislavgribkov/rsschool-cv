@@ -6,15 +6,19 @@
 }
 .header__items_title-text{
     margin: 0 0 150px 0;
+    text-indent: 0;
+    text-align: center;
 }
 .site1{
     top: -120px;
 }
 .site2{
     top: -110px;
+    left: -70px;
 }
 .site3{
     top: -110px;
+    left: 160px;
 }
 .header__items_examples-items_item:hover{
     top: -150px;
