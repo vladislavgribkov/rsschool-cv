@@ -3,110 +3,146 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Piazzolla:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Sansita+Swashed:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <title>My CV</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="768px.css" media="screen and (max-width: 1199px)">
+    <title>Document</title>
 </head>
 <body>
-    <div class="container">
-       <main>
-            <div class="left">
-                <div class="left__person">
-                    <img src="photo.jpg" alt="photo">
-                    <h1>Vladislav Gribkov</h1>
-                    <h3>Minsk, Belarus</h3>
-                </div>
-                <div class="left__about">
-                    <h2>About me</h2>
-                    <p>My name is Vladislav. I live in Minsk. I am 23 years old. My main goal is to get a job as a front-end developer.</p>
-                </div>
-                <div class="left__contacts">
-                    <h2>Contact</h2>
-                    <div class="contacts__info">
-                        <div class="telegram">
-                            <span class="fa fa-telegram"></span>
-                            <a href="tg://resolve?domain=vlad24_05">Telegram</a>
+    <div class="main_container">
+        <header class="header">
+            <div class="container">
+                <div class="header__items">
+                    <div class="header__items_logo">
+                        <div class="header__items_logo-photo">
+                            <img src="assets/photo.jpg" alt="photo">
                         </div>
-                        <div class="mail">
-                            <span class="fa fa-envelope-open-o"></span>
-                            <a href="mailto:vladislavgribkovq@yandex.by">Mail</a>
+                       <div class="header__items_logo-socials">
+                            <a href="tg://resolve?domain=vlad24_05" class="fa fa-telegram" aria-hidden="true"></a>
+                            <a href="mailto:vladislavgribkovq@yandex.by" class="fa fa-envelope" aria-hidden="true"></a>
+                            <a href="tel:#" class="fa fa-phone-square" aria-hidden="true"></a>
+                            <a href="#" class="fa fa-facebook-official" aria-hidden="true"></a>
+                            <a href="#" class="fa fa-vk" aria-hidden="true"></a>
+                            <a href="https://github.com/vladislavgribkov" target="_blank" class="fa fa-github" aria-hidden="true"></a>
+                       </div>
+                    </div>
+                    <div class="header__items_title">
+                        <div class="header__items_title-name">
+                            <h1>Vladislav Gribkov</h1>
+                        </div>
+                        <div class="header__items_title-location">
+                            <a href="https://www.google.com/maps/place/%D0%9F%D0%BB%D0%BE%D1%89%D0%B0%D0%B4%D1%8C+%D0%9F%D0%BE%D0%B1%D0%B5%D0%B4%D1%8B,+%D0%9C%D0%B8%D0%BD%D1%81%D0%BA/@53.8843138,27.3131922,10z/data=!4m13!1m7!3m6!1s0x46dbcfd35b1e6ad3:0xb61b853ddb570d9!2z0JzQuNC90YHQug!3b1!8m2!3d53.9006011!4d27.558972!3m4!1s0x46dbcfbc08fc7133:0x6c1ad4b7d5444b49!8m2!3d53.9085349!4d27.5748253" target="_blank">
+                                Minsk, Belarus
+                                <i class="fa fa-map-marker" aria-hidden="true"></i>
+                            </a>
+                        </div>
+                        <div class="header__items_title-text">
+                            <p>My name is Vladislav. 
+                                I live in Minsk. I am 23 years old. 
+                                My main goal is to get a job as a front-end developer. 
+                                My qualities are a quick study, organized, proactive,
+                                communicative,
+                                hardworking.</p>
+                        </div>
+                    </div>
+                    <div class="header__items_examples">
+                        <div class="header__items_examples-items">
+                            <a href="https://rolling-scopes-school.github.io/vladislavgribkov-JS2020Q3/shelter/pages/main/" target="_blank" class="header__items_examples-items_item site1" href="">
+                                <img src="assets/site-1.jpg" alt="site-1">
+                            </a>
+                           <a href="https://rolling-scopes-school.github.io/vladislavgribkov-JS2020Q3/shelter/pages/pets/" target="_blank" class="header__items_examples-items_item site2" href="">
+                                <img src="assets/site-2.jpg" alt="site-2">
+                           </a>
+                           <a href="https://vladislavgribkov-webdev.netlify.app/" target="_blank" class="header__items_examples-items_item site3" href="">
+                                <img src="assets/site-3.jpg" alt="site-3">
+                           </a>  
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="right">
-                <div class="right__education">
-                    <div class="education__tittle">
-                        <i class="fa fa-book"></i>
-                        <h1>Education</h1>
+        </header>
+        <main class="main">
+            <div class="container">
+               <div class="main__items_title-skills">
+                    <div class="main__items_title-skills_item">
+                        <div class="main__items_title-skills_item-circle gradient">
+                            <div class="main__items_title-skills_item-circle_count">HTML</div>
+                        </div>
                     </div>
-                    <p><strong>VSU named after P.M. Masherov</strong> - Computer Security (Radiophysical Methods and Software).</p>
-                </div>
-                <div class="right__skills">
-                    <div class="skills__tittle">
-                        <i class="fa fa-wrench"></i>
-                        <h1>Skills</h1>
+                    <div class="main__items_title-skills_item">
+                        <div class="main__items_title-skills_item-circle gradient">
+                            <div class="main__items_title-skills_item-circle_count">CSS</div>
+                        </div>
                     </div>
-                    <div class="skills__item">
-                        <div class="php">
-                            <p class="name">PHP</p>
-                            <div class="box">
-                                <div class="box__item color"></div>
-                                <div class="box__item"></div>
-                                <div class="box__item"></div>
-                                <div class="box__item"></div>
-                                <div class="box__item"></div>
-                            </div>
+                    <div class="main__items_title-skills_item">
+                        <div class="main__items_title-skills_item-circle gradient">
+                            <div class="main__items_title-skills_item-circle_count">JS</div>
                         </div>
-                        <div class="java">
-                            <p class="name">java</p>
-                            <div class="box">
-                                <div class="box__item color"></div>
-                                <div class="box__item color"></div>
-                                <div class="box__item"></div>
-                                <div class="box__item"></div>
-                                <div class="box__item"></div>
-                            </div>
+                    </div>
+                    <div class="main__items_title-skills_item">
+                        <div class="main__items_title-skills_item-circle gradient">
+                            <div class="main__items_title-skills_item-circle_count">JAVA</div>
                         </div>
-                        <div class="html">
-                            <p class="name">html</p>
-                            <div class="box">
-                                <div class="box__item color"></div>
-                                <div class="box__item color"></div>
-                                <div class="box__item color"></div>
-                                <div class="box__item"></div>
-                                <div class="box__item"></div>
-                            </div>
+                    </div>
+                    <div class="main__items_title-skills_item">
+                        <div class="main__items_title-skills_item-circle gradient">
+                            <div class="main__items_title-skills_item-circle_count">PHP</div>
                         </div>
-                        <div class="css">
-                            <p class="name">css</p>
-                            <div class="box">
-                                <div class="box__item color"></div>
-                                <div class="box__item color"></div>
-                                <div class="box__item color"></div>
-                                <div class="box__item"></div>
-                                <div class="box__item"></div>
-                            </div>
+                    </div>
+                    <div class="main__items_title-skills_item">
+                        <div class="main__items_title-skills_item-circle gradient">
+                            <div class="main__items_title-skills_item-circle_count">Git & GH</div>
+                        </div>
+                    </div>
+                    <div class="main__items_title-skills_item">
+                        <div class="main__items_title-skills_item-circle gradient">
+                            <div class="main__items_title-skills_item-circle_count">Ps & AI</div>
+                        </div>
+                    </div>
+                    <div class="main__items_title-skills_item">
+                        <div class="main__items_title-skills_item-circle gradient">
+                            <div class="main__items_title-skills_item-circle_count">Figma</div>
+                        </div>
+                    </div>
+                    <div class="main__items_title-skills_item">
+                        <div class="main__items_title-skills_item-circle gradient">
+                            <div class="main__items_title-skills_item-circle_count">Webpack</div>
                         </div>
                     </div>
                 </div>
-                <div class="right__languages">
-                    <div class="languages__tittle">
-                        <h1>languages</h1>
-                    </div>
-                    <div class="english">
-                        <h2>English:</h2>
-                        <div class="english__levels">
-                            <p>A1</p>
-                            <p>A2</p>
-                            <p>B1</p>
-                            <p>B2</p>
-                            <p>C1</p>
-                            <p>C2</p>
-                        </div>
-                    </div>
-                </div>
+            </div>
         </main>
+        <footer class="footer">
+            <div class="container">
+                <div class="footer__items">
+                    <div class="footer__items-item">
+                        <div class="footer__items-item_name">
+                            <i class="fa fa-graduation-cap" aria-hidden="true"></i>
+                            <span>Education</span>
+                        </div>
+                        <h3>2014-2018</h3>
+                        <p>VSU named after P.M. Masherov - Computer Security (Radiophysical Methods and Software).</p>
+                    </div>
+                    <div class="footer__items-item">
+                        <div class="footer__items-item_name">
+                            <i class="fa fa-language" aria-hidden="true"></i>
+                            <span>English</span>
+                        </div>
+                        <h2>A2</h2>
+                    </div>
+                    <div class="footer__items-item">
+                        <div class="footer__items-item_name">
+                            <i class="fa fa-television" aria-hidden="true"></i>
+                            <span>Courses</span>
+                        </div>
+                        <h3>2020-till now</h3>
+                        <p>The Rolling Scopes - JavaScript Front-end</p>
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
     </div>
 </body>
 </html>

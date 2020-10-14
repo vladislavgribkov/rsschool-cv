@@ -1,0 +1,21 @@
+.container{
+    max-width: 768px;
+}
+.header__items{
+    flex-direction: column;
+}
+.header__items_title-text{
+    margin: 0 0 150px 0;
+}
+.site1{
+    top: -120px;
+}
+.site2{
+    top: -110px;
+}
+.site3{
+    top: -110px;
+}
+.header__items_examples-items_item:hover{
+    top: -150px;
+}
