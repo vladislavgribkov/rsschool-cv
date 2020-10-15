@@ -6,7 +6,7 @@
 * LinkedIn: [linkedin.com/in/vladislav-gribkov-4014a11b9/](https://www.linkedin.com/in/vladislav-gribkov-4014a11b9/)
 
 ### About me
-* My name is Vladislav. I live in Minsk. I am 23 years old. My main goal is to develop as a front-end developer. My qualities are fast learning, organization, activity, communication, hard work, I am not afraid of non-standard sittings, I easily switch between tasks, I like to use new technologies and apply them in practice.
+* My name is Vladislav. I live in Minsk. I am 23 years old. My main goal is to develop as a front-end developer. My qualities are fast learning, organization, activity, communication, hard work, i am not afraid of unusual situations, i easily switch between tasks, i like to use new technologies and apply them in practice.
 
 ### Skills
 * Java
